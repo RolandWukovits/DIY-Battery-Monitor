@@ -21,7 +21,7 @@ Values displayed are:
 - Internet Connection
 - 2 Temperature Probes
 - Cycle Counter
-- kWhs charged during actual cycle
+- Whs charged during actual cycle
 - Millis Counter
 
 WiFi and remote Monitoring using Blynk-App
