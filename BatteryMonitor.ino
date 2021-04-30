@@ -458,7 +458,7 @@ void startBlynk() {
 
 void BlynkDataTransmit(){
 
- if (linkstate==1){ 
+ if (linkState==1){ 
   
  if (Blynk.connected()){
          simpleWDTreset();
