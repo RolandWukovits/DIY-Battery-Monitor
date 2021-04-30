@@ -434,6 +434,7 @@ void simpleWDTreset() {
 void startBlynk() {
 
   if (linkState == 0) {  
+    wifistartmillis=millis();  
     disconnects++;
     if (disconnects>9999){
       disconnects=9999;                             
@@ -457,6 +458,8 @@ void startBlynk() {
 
 void BlynkDataTransmit(){
 
+ if (linkstate==1){ 
+  
  if (Blynk.connected()){
          simpleWDTreset();
   
@@ -473,7 +476,8 @@ void BlynkDataTransmit(){
 }
  
 }
-
+ 
+}
 
 void  getTempprobes(){
 
