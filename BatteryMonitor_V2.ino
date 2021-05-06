@@ -33,9 +33,9 @@
 
 
 #define BLYNK_PRINT Serial
-char auth[] = "HdnVyxunhm6xzOQ0JsnKwrxoBZs_aJ9g";
-char ssid[] = "THEHILLSIDENET";
-char pass[] = "greatwings";
+char auth[] = "yourAuth";
+char ssid[] = "yourSSID";
+char pass[] = "yourPass";
 
 // or Software Serial on Uno, Nano...
 //#include <SoftwareSerial.h>
